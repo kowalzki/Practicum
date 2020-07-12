@@ -8,7 +8,7 @@ struct good_type
 	int type_ind; // код типа
 	string name;
 	string description;
-	string ocobennocti; //??
+	string features; //особенности
 };
 
 #endif // !GOOD_TYPE_H

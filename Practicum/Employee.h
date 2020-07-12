@@ -1,4 +1,5 @@
 #include <string>
+#include <fstream>
 #include "General.h"
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
@@ -6,14 +7,15 @@ using namespace std;
 
 struct employee
 {
-	int eploy_ind; // код сотрудника
+	//const string filename = "employee";
+	string eploy_ind; // код сотрудника
 	struct full_name fio;
-	int age;
-	char sex;
+	string age;
+	string sex;
 	struct adress e_adress;
-	int phone;
-	int passport;
-	int position_ind; // должность
+	string phone;
+	string passport;
+	string position_ind; // должность
 };
 
 #endif // !EMPLOYEE_H

@@ -10,7 +10,7 @@ struct good
 	string prod; //производитель
 	string name;
 	string hold_condit; // условия хранения
-	string upakovka; // KAK?
+	string package; // упаковка
 	int exp_date; //cpok годности 
 };
 
